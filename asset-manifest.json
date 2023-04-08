@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/saints_gallery/static/css/main.c558ff00.css",
+    "main.css": "/saints_gallery/static/css/main.14668488.css",
     "main.js": "/saints_gallery/static/js/main.783c3944.js",
     "static/media/nudes.jpg": "/saints_gallery/static/media/nudes.391a7032bdfc0562a653.jpg",
     "static/media/black&white.JPG": "/saints_gallery/static/media/black&white.58000633a481a6626dfd.JPG",
     "static/media/potraits.jpg": "/saints_gallery/static/media/potraits.6a6828a6510346fb095f.jpg",
     "static/media/flowers.JPG": "/saints_gallery/static/media/flowers.b47c4be9630557078194.JPG",
     "index.html": "/saints_gallery/index.html",
-    "main.c558ff00.css.map": "/saints_gallery/static/css/main.c558ff00.css.map",
+    "main.14668488.css.map": "/saints_gallery/static/css/main.14668488.css.map",
     "main.783c3944.js.map": "/saints_gallery/static/js/main.783c3944.js.map"
   },
   "entrypoints": [
-    "static/css/main.c558ff00.css",
+    "static/css/main.14668488.css",
     "static/js/main.783c3944.js"
   ]
 }
