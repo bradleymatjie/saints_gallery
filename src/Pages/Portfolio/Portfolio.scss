@@ -64,12 +64,14 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-start;
+        margin-bottom: 10px;
 
         & h2 {
           font-size: 28px;
           margin: 3px;
           text-shadow: 1px 1px 1px grey;
         }
+        
         & button {
           width: 60%;
           height: 30px;
