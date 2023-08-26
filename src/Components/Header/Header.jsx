@@ -18,11 +18,11 @@ export const Header = memo(({ menuTogglerFunction, menuTogglerValue }) => {
           </li>
 
           <li>
-            <NavLink to='/saints_gallery/LandScapes'>LandScapes</NavLink>
+            <NavLink to='/saints_gallery/Landscapes'>LandScapes</NavLink>
           </li>
 
           <li>
-            <NavLink to='/saints_gallery/Street'>Street</NavLink>
+            <NavLink to='/saints_gallery/quotes'>Quotes</NavLink>
           </li>
 
           <li>

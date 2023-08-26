@@ -16,10 +16,6 @@ export const MobileMenu = ({ removeMenu, menuToggler }) => {
           </li>
 
           <li>
-            <NavLink onClick={removeMenu} to='/saints_gallery/Street'>Street</NavLink>
-          </li>
-
-          <li>
             <NavLink onClick={removeMenu} to='/saints_gallery/boudior'>Boudior</NavLink>
           </li>
 

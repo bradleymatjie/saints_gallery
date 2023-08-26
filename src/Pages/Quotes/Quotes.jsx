@@ -1,11 +1,11 @@
-import './Potraits.scss'
+import './Quotes.scss'
 import { useRef } from 'react';
-import { portraits } from '../../Content';
+import { quotes } from '../../Content';
 
 import left from '../../assets/left.svg';
 import right from '../../assets/right.svg';
 
-export const Potraits = () => {
+export const Quotes = () => {
     const containerRef = useRef(null);
 
     const handleScrollRight = () => {
@@ -49,14 +49,14 @@ export const Potraits = () => {
         <section className='potraits'>
             <div className='middle'>
                 <div>
-                    <h1>Portraits</h1>
+                    <h1>Quotes</h1>
                 </div>
                 <div className="controls">
                     <img src={left} onClick={handleScrollLeft} alt="left arrow" />
                     <img src={right} onClick={handleScrollRight} alt="right arrow" />
                 </div>
                 <div className='card_container' ref={containerRef}>
-                    {portraits.map(item => (
+                    {quotes.map(item => (
                         <div className="card">
                             <img src={item.img} alt="portrait image" loading='lazy' />
                             <h2>{item.title}</h2>

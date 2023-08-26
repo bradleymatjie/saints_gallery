@@ -1,11 +1,12 @@
-import './Potraits.scss'
-import { useRef } from 'react';
-import { portraits } from '../../Content';
+import './Landscape.scss'
+import { useRef } from 'react'
 
-import left from '../../assets/left.svg';
-import right from '../../assets/right.svg';
+import { landscape } from '../../Content'
 
-export const Potraits = () => {
+import left from '../../assets/left.svg'
+import right from '../../assets/right.svg'
+
+export const Landscape = () => {
     const containerRef = useRef(null);
 
     const handleScrollRight = () => {
@@ -49,20 +50,19 @@ export const Potraits = () => {
         <section className='potraits'>
             <div className='middle'>
                 <div>
-                    <h1>Portraits</h1>
+                    <h1>LandScapes</h1>
                 </div>
                 <div className="controls">
                     <img src={left} onClick={handleScrollLeft} alt="left arrow" />
                     <img src={right} onClick={handleScrollRight} alt="right arrow" />
                 </div>
                 <div className='card_container' ref={containerRef}>
-                    {portraits.map(item => (
+                    {landscape.map(item => (
                         <div className="card">
-                            <img src={item.img} alt="portrait image" loading='lazy' />
+                            <img src={item.img} alt="" />
                             <h2>{item.title}</h2>
                         </div>
                     ))}
-                    
                 </div>
             </div>
             <div className='socials'>
