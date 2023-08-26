@@ -19,11 +19,6 @@ export const About = () => {
                 to capturing moments that transcend time, preserving them in 
                 frames that echo with emotion and artistry.
                 </p>
-                {/* <div className='socials'>
-                    <a href="https://www.instagram.com/saints_gallery/" target='_'>Instagram</a>
-                    <a href="https://m.facebook.com/saintsGallery45/" target='_'>Facebook</a>
-                    <a href="https://unsplash.com/@saints_gallery" target='_'>Unsplash</a>
-                </div> */}
             </div>
 
             <div className='img_container'>
