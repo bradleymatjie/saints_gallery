@@ -1,0 +1,76 @@
+.potraits {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: whitesmoke;
+    height: 89vh;
+    margin-top: 5%;
+
+    & .middle {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+
+        & > :first-child {
+            width: 30%;
+            display: flex;
+            height: 80vh;
+            align-items: flex-end;
+
+            & h1 {
+                font-size: 80px;
+                margin-top: 60px;
+            }
+        }
+
+        &  .card_container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: 70%;
+            height: 100%;
+            overflow: hidden;
+
+            & .card {
+                width: 400px;
+                cursor: pointer;
+                padding: 10px;
+                transition: .5s all;
+
+                &:hover {
+                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                }
+
+                & img {
+                    width: 400px;
+                    height: 350px;
+                }
+            }
+        }
+    }
+}
+
+.controls {
+    position: absolute;
+    right: 10px;
+    top: 10%;
+    display: flex;
+    gap: 20px;
+
+    & img {
+        cursor: pointer;
+    }
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+    padding-left: 20px;
+
+    & a {
+        text-decoration: none;
+        color: #252525;
+        font-size: .8em;
+    }
+}
